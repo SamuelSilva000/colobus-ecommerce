@@ -6,12 +6,6 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#f5f5f5"
-    },
     "ios": {
       "supportsTablet": true
     },
@@ -20,14 +14,22 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#f5f5f5"
       },
-      "edgeToEdgeEnabled": true,
       "package": "com.anonymous.colobus"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-font"
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#f5f5f5"
+        }
+      ],
+      "expo-status-bar"
     ]
   }
 }
