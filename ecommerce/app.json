@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ecommerce",
-    "slug": "ecommerce",
+    "name": "Colobus",
+    "slug": "colobus",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f5f5f5"
     },
     "ios": {
       "supportsTablet": true
@@ -18,10 +18,10 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#f5f5f5"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.ecommerce"
+      "package": "com.anonymous.colobus"
     },
     "web": {
       "favicon": "./assets/favicon.png"
